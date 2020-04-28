@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'TR MDL';
+$this->title = 'Tehno Restart';
 ?>
 
 <div class="admin-default-index">
@@ -10,7 +10,7 @@ $this->title = 'TR MDL';
     <div class="jumbotron">
         <h1>Congratulations!</h1>
 
-        <p class="lead">You have successfully on TR MDL</p>
+        <p class="lead">You have successfully on Tehno Restart</p>
 
         <p><a class="btn btn-lg btn-success" href="#">OK</a></p>
     </div>
