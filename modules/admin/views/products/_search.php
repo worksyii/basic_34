@@ -23,15 +23,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'model_name') ?>
 
-    <?= $form->field($model, 'model_part_nuber') ?>
+    <?= $form->field($model, 'model_part_number') ?>
 
-    <?php // echo $form->field($model, 'category') ?>
+    <?= $form->field($model, 'category') ?>
 
-    <?php // echo $form->field($model, 'price') ?>
+    <?= $form->field($model, 'price') ?>
 
-    <?php // echo $form->field($model, 'description') ?>
+    <?= $form->field($model, 'description') ?>
 
-    <?php // echo $form->field($model, 'image') ?>
+    <?= $form->field($model, 'image') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

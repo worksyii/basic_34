@@ -18,7 +18,7 @@ class ProductsSearch extends Products
     {
         return [
             [['id', 'sku'], 'integer'],
-            [['brand_name', 'model_name', 'model_part_nuber', 'category', 'description', 'image'], 'safe'],
+            [['brand_name', 'model_name', 'model_part_number', 'category', 'description', 'image'], 'safe'],
             [['price'], 'number'],
         ];
     }
@@ -66,7 +66,7 @@ class ProductsSearch extends Products
 
         $query->andFilterWhere(['like', 'brand_name', $this->brand_name])
             ->andFilterWhere(['like', 'model_name', $this->model_name])
-            ->andFilterWhere(['like', 'model_part_nuber', $this->model_part_nuber])
+            ->andFilterWhere(['like', 'model_part_number', $this->model_part_number])
             ->andFilterWhere(['like', 'category', $this->category])
             ->andFilterWhere(['like', 'description', $this->description])
             ->andFilterWhere(['like', 'image', $this->image]);

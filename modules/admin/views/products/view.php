@@ -33,11 +33,11 @@ $this->params['breadcrumbs'][] = $this->title;
             'sku',
             'brand_name',
             'model_name',
-            'model_part_nuber',
+            'model_part_number',
             'category',
             'price',
-            'description:ntext',
-            'image:ntext',
+            'description',
+            'image',
         ],
     ]) ?>
 

@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Contracts', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Contract', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
@@ -31,12 +31,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'name_surname',
             'idnp',
             'phone',
-            //'contract_type',
-            //'brand_name',
-            //'model_name',
+            'contract_type',
+            'brand_name',
+            'model_name',
             //'imei',
             //'price',
-            //'discount',
+            'discount',
             //'amount',
 
             ['class' => 'yii\grid\ActionColumn'],
