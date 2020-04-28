@@ -30,8 +30,12 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         'js/application.js',
+        'js/bootstrap.min.js',
+        'js/jquery.countdown.min.js',
+        'js/jquery.min.js',
+        'js/yii.activForm.js',
         'js/yii.js',
-        'js/validation.js'
+        'js/validation.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
