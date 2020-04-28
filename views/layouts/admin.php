@@ -40,6 +40,7 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/admin/default/index']],
             ['label' => 'Users', 'url' => ['/rbac/default/index']],
+            ['label' => 'Products', 'url' => ['/admin/products/index']],
             ['label' => 'Categories', 'url' => ['/admin/categories/index']],
             ['label' => 'Partners', 'url' => ['/admin/partners/index']],
             ['label' => 'Contracts', 'url' => ['/admin/contracts/index']],
