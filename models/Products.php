@@ -49,7 +49,7 @@ class Products extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'sku' => 'Sku',
+            //'sku' => 'Sku',
             'brand_name' => 'Brand Name',
             'model_name' => 'Model Name',
             'model_part_number' => 'Model Part Number',

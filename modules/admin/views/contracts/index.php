@@ -34,10 +34,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'contract_type',
             'brand_name',
             'model_name',
-            //'imei',
-            //'price',
+            'imei',
+            'price',
             'discount',
-            //'amount',
+            'amount',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
