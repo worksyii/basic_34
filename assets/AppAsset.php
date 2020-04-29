@@ -25,6 +25,7 @@ class AppAsset extends AssetBundle
         'css/css.css',
         'bootstrap.min.css',
         'bootstrap-theme.css',
+        'font-awesome.min.css',
 
 
     ];

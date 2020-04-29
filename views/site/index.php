@@ -16,11 +16,11 @@ $this->title = 'TR MDL';
     <meta name="csrf-token" content="ckNmYnFHYmo1FVRXBQFbLx1xXzsECRc/KC0NBxYVIFwDDC1bPwshHA==">
     <meta name="description" content="Demo site Description">
     <meta name="keywords" content="Demo site Keywords">
-    <link href="./Home_files/bootstrap.min.css" rel="stylesheet">
-    <link href="./Home_files/font-awesome.min.css" rel="stylesheet">
-    <link href="./Home_files/stylesheet.css" rel="stylesheet">
-    <link href="./Home_files/bootstrap-theme.css" rel="stylesheet">
-    <link href="./Home_files/css" rel="stylesheet">    </head>
+<!--    <link href="./images/bootstrap.min.css" rel="stylesheet">
+    <link href="./images/font-awesome.min.css" rel="stylesheet">
+    <link href="./images/stylesheet.css" rel="stylesheet">
+    <link href="./images/bootstrap-theme.css" rel="stylesheet">
+    <link href="./images/css" rel="stylesheet">    </head>-->
 
 <body>
 <nav id="top">
@@ -134,11 +134,11 @@ $this->title = 'TR MDL';
                 </ol>
 
                 <div class="carousel-inner" style="">
-                    <div class="item active"><img src="./Home_files/MacBookAir.jpg" alt=""></div>
+                    <div class="item active"><img src="./images/MacBookAir.jpg" alt=""></div>
 
-                    <div class="item"><img src="./Home_files/iPhone6.jpg" alt=""></div>
+                    <div class="item"><img src="./images/iPhone6.jpg" alt=""></div>
 
-                    <div class="item"><img src="./Home_files/slide4-1140x380.png" alt=""></div>
+                    <div class="item"><img src="./images/slide4-1140x380.png" alt=""></div>
                 </div>
                 <a class="left carousel-control" data-slide="prev" href="http://demo.whatacart.com/site/default/index#carousel-captions"><span class="icon-prev"></span> </a>
                 <a class="right carousel-control" data-slide="next" href="http://demo.whatacart.com/site/default/index#carousel-captions"> <span class="icon-next"></span> </a>
@@ -146,7 +146,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=55">
-                                <img class="img-responsive" src="./Home_files/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
+                                <img class="img-responsive" src="./images/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -177,7 +177,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=54">
-                                <img class="img-responsive" src="./Home_files/150_150_ZDY5NmEyMmsony-vaio-eb-2011q1-black-hero-lg.jpg" width="150" height="150" alt="">            </a>
+                                <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-eb-2011q1-black-hero-lg.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -208,7 +208,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=53">
-                                <img class="img-responsive" src="./Home_files/150_150_ZDY5NmEyMmsony-vaio-laptop-s13126-black-with-laptop-bag.jpg" width="150" height="150" alt="">            </a>
+                                <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-laptop-s13126-black-with-laptop-bag.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -239,7 +239,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=52">
-                                <img src="./Home_files/150_150_img_not_available.png" width="150" height="150" alt="">            </a>
+                                <img src="./images/150_150_img_not_available.png" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -270,7 +270,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=51">
-                                <img class="img-responsive" src="./Home_files/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
+                                <img class="img-responsive" src="./images/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -301,7 +301,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=50">
-                                <img class="img-responsive" src="./Home_files/150_150_ZDY5NmEyMmsony-vaio-eb-2011q1-black-hero-lg.jpg" width="150" height="150" alt="">            </a>
+                                <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-eb-2011q1-black-hero-lg.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -332,7 +332,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=49">
-                                <img class="img-responsive" src="./Home_files/150_150_ZDY5NmEyMmsony-vaio-laptop-s13126-black-with-laptop-bag.jpg" width="150" height="150" alt="">            </a>
+                                <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-laptop-s13126-black-with-laptop-bag.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -363,7 +363,7 @@ $this->title = 'TR MDL';
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="http://demo.whatacart.com/catalog/products/site/detail?id=48">
-                                <img src="./Home_files/150_150_img_not_available.png" width="150" height="150" alt="">            </a>
+                                <img src="./images/150_150_img_not_available.png" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
@@ -465,13 +465,16 @@ $this->title = 'TR MDL';
                 Thank you for subscribing to our newsletter            </div>
         </div>
     </div>
-</div>        <script src="./Home_files/jquery.min.js.descărcare"></script>
-<script src="./Home_files/yii.js.descărcare"></script>
-<script src="./Home_files/bootstrap.min.js.descărcare"></script>
-<script src="./Home_files/application.js.descărcare"></script>
-<script src="./Home_files/jquery.countdown.min.js.descărcare"></script>
-<script src="./Home_files/yii.validation.js.descărcare"></script>
-<script src="./Home_files/yii.activeForm.js.descărcare"></script>
+</div>
+<!--
+<script src="./images/jquery.min.js.descărcare"></script>
+<script src="./images/yii.js.descărcare"></script>
+<script src="./images/bootstrap.min.js.descărcare"></script>
+<script src="./images/application.js.descărcare"></script>
+<script src="./images/jquery.countdown.min.js.descărcare"></script>
+<script src="./images/yii.validation.js.descărcare"></script>
+<script src="./images/yii.activeForm.js.descărcare"></script>
+-->
 <script type="text/javascript">
     $('.topnavbar ul > li:has(ul) > a').addClass('dropdown-toggle');
     $('.topnavbar ul > li:has(ul) > a').attr('data-toggle', 'dropdown');
