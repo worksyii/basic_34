@@ -23,23 +23,21 @@ class AppAsset extends AssetBundle
         'css/site.css',
         'css/stylesheet.css',
         'css/css.css',
-        'bootstrap.min.css',
-        'bootstrap-theme.css',
-        'font-awesome.min.css',
-
-
+        'css/bootstrap.min.css',
+        'css/bootstrap-theme.css',
+        'css/font-awesome.min.css',
     ];
     public $js = [
         'js/application.js',
         'js/bootstrap.min.js',
         'js/jquery.countdown.min.js',
         'js/jquery.min.js',
-        'js/yii.activForm.js',
+        'js/yii.activeForm.js',
         'js/yii.js',
-        'js/validation.js',
+        'js/yii.validation.js',
     ];
     public $depends = [
-        /*'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',*/
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
     ];
 }
