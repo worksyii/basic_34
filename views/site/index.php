@@ -85,7 +85,7 @@ $this->title = 'TR MDL';
         <div class="row">
             <div class="col-sm-4">
                 <div id="logo">
-                    <h1><a href="http://demo.whatacart.com/site/default/index">Demo site</a></h1>                </div>
+                    <h1><a href="http://demo.whatacart.com/site/default/index">Tehno Restart</a></h1>                </div>
             </div>
             <div class="col-sm-5">
                 <form id="navbarsearchformview" class="navbar-search" action="http://demo.whatacart.com/site/default/search" method="get">
@@ -392,56 +392,8 @@ $this->title = 'TR MDL';
                     </div>
                 </div></div>        </div>
     </div>
-</div><!-- begin:footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h5>Information</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="http://demo.whatacart.com/cms/site/page?alias=about-us">About Us</a>                    </li>
-                    <li>
-                        <a href="http://demo.whatacart.com/cms/site/page?alias=delivery-info">Delivery Information</a>                    </li>
-                    <li>
-                        <a href="http://demo.whatacart.com/cms/site/page?alias=privacy-policy">Privacy Policy</a>                    </li>
-                    <li>
-                        <a href="http://demo.whatacart.com/cms/site/page?alias=terms">Terms &amp; Conditions</a>                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5> Customer Service </h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="http://demo.whatacart.com/site/default/contact-us">Contact Us</a>                    </li>
-                    <li>
-                        <a type="button" class="send-newsletter" href="http://demo.whatacart.com/site/default/index#" data-toggle="modal" data-target="#sendNewsletterModal">Join the newsletter</a>                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5> My Account </h5>
-                <ul class="list-unstyled">
-                    <li> <a href="http://demo.whatacart.com/customer/site/my-account">My Account</a> </li>
-                    <li> <a href="http://demo.whatacart.com/customer/site/order-history">Order History</a> </li>
-                    <li> <a href="http://demo.whatacart.com/cart/default/view">Shopping Cart</a> </li>
-                    <li> <a href="http://demo.whatacart.com/cart/checkout/index">Checkout</a> </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5> Social </h5>
-                <p>
-                    <a href="http://demo.whatacart.com/site/default/index#"><i class="fa fa-twitter"></i></a> &nbsp;
-                    <a href="http://demo.whatacart.com/site/default/index#"><i class="fa fa-facebook"></i></a> &nbsp;
-                    <a href="http://demo.whatacart.com/site/default/index#"><i class="fa fa-rss"></i></a>
-                </p>
-            </div>
-        </div>
-        <hr>
-        <p></p><p>Copyright © 2020 Default Store. All Rights Reserved.
-            Powered by <a href="http://whatacart.com/" rel="external">WhatACart</a>.</p><p></p>
-    </div>
-</footer>
-<!-- end:footer --><div class="modal fade in" id="sendNewsletterModal" tabindex="-1" role="dialog" aria-labelledby="screenOptionsLabel" aria-hidden="true">
+</div>
+<div class="modal fade in" id="sendNewsletterModal" tabindex="-1" role="dialog" aria-labelledby="screenOptionsLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
