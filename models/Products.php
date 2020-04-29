@@ -53,7 +53,7 @@ class Products extends \yii\db\ActiveRecord
             'brand_name' => 'Brand Name',
             'model_name' => 'Model Name',
             'model_part_number' => 'Model Part Number',
-            'category' => 'Category',
+            'category' => 'Category Name',
             'price' => 'Price',
             'description' => 'Description',
             'image' => 'Image',

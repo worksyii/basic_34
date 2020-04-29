@@ -15,11 +15,11 @@ class m200428_123823_create_partners extends Migration
 	$this->createTable('partners', [
             'id' => $this->primaryKey()->notNull(),
             'name' => $this->string(100)->notNull()->unique(),
-	    'phone' => $this->string(100)->notNull(),
+	        'phone' => $this->string(100)->notNull(),
             'email' => $this->string(100)->notNull()->unique(),
             'address' => $this->string(100)->notNull(),
             'city' => $this->string(100)->notNull(),
-	    'postal code' => $this->string(100)->notNull(),
+	        'postal_code' => $this->string(100)->notNull(),
         ]);
     }
 

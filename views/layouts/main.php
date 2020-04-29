@@ -115,15 +115,15 @@ AppAsset::register($this);
             <div class="col-sm-3">
                 <h5> Social </h5>
                 <p>
-                    <a href="http://demo.whatacart.com/site/default/index#"><i class="fa fa-twitter"></i></a> &nbsp;
-                    <a href="http://demo.whatacart.com/site/default/index#"><i class="fa fa-facebook"></i></a> &nbsp;
-                    <a href="http://demo.whatacart.com/site/default/index#"><i class="fa fa-rss"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a> &nbsp;
+                    <a href="#"><i class="fa fa-facebook"></i></a> &nbsp;
+                    <a href="#"><i class="fa fa-rss"></i></a>
                 </p>
             </div>
         </div>
         <hr>
         <p></p><p>Copyright © 2020 Default Store. All Rights Reserved.
-            Powered by <a href="http://whatacart.com/" rel="external">WhatACart</a>.</p><p></p>
+            Powered by <a href="#"><?= Yii::powered()?></p></a>.</p><p></p>
     </div>
 </footer>
 <!-- end:footer -->

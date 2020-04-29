@@ -15,7 +15,7 @@ class m200428_110616_create_categories extends Migration
 	$this->createTable('categories', [
             'id' => $this->primaryKey()->notNull(),
             'name' => $this->string(100)->notNull(),
-            'descrition' => $this->string(),
+            'description' => $this->string(),
         ]);
     }
 

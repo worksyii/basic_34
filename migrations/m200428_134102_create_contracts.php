@@ -22,7 +22,7 @@ class m200428_134102_create_contracts extends Migration
             'brand_name' => $this->string(),
             'model_name' => $this->string(),
             'imei' => $this->integer(),
-	    'price' => $this->integer(),
+	        'price' => $this->integer(),
             'discount' => $this->integer(),
             'amount' => $this->float(),
         ]);
