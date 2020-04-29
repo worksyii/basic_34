@@ -23,7 +23,7 @@ $this->title = 'TR MDL';
     <link href="./images/css" rel="stylesheet">    </head>-->
 
 <body>
-<nav id="top">
+<!--<nav id="top">
     <div class="container">
         <div class="hidden-xs hidden-sm hidden-md pull-left" id="local-options">
             <ul class="list-inline">
@@ -79,7 +79,7 @@ $this->title = 'TR MDL';
                 </li>
             </ul>
         </div>    </div>
-</nav>
+</nav>-->
 <header>
     <div class="container header-row">
         <div class="row">

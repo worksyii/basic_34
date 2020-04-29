@@ -27,6 +27,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
@@ -40,7 +41,7 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
-	        ['label' => 'Signup', 'url' => ['/site/signup']],
+	        ['label' => 'Register', 'url' => ['/site/signup']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -57,6 +58,7 @@ AppAsset::register($this);
     ]);
     NavBar::end();
     ?>
+
 
     <div class="container">
         <?= Breadcrumbs::widget([
