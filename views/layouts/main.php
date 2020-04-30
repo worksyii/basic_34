@@ -123,7 +123,7 @@ AppAsset::register($this);
         </div>
         <hr>
         <p></p><p>Copyright © 2020 Default Store. All Rights Reserved.
-            Powered by <a href="#"><?= Yii::powered()?></p></a>.</p><p></p>
+            Powered by <a href="#"><?= Yii::powered()?></a>.</p><p></p>
     </div>
 </footer>
 <!-- end:footer -->
