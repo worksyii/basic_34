@@ -15,7 +15,7 @@ $this->title = 'TR MDL';
     <meta name="csrf-param" content="_frontendCSRF">
     <meta name="csrf-token" content="ckNmYnFHYmo1FVRXBQFbLx1xXzsECRc/KC0NBxYVIFwDDC1bPwshHA==">
     <meta name="description" content="Demo site Description">
-    <meta name="keywords" content="Demo site Keywords">
+    <meta name="keywords" content="Demo site Keyword">
 <!--    <link href="./images/bootstrap.min.css" rel="stylesheet">
     <link href="./images/font-awesome.min.css" rel="stylesheet">
     <link href="./images/stylesheet.css" rel="stylesheet">
@@ -85,10 +85,10 @@ $this->title = 'TR MDL';
         <div class="row">
             <div class="col-sm-4">
                 <div id="logo">
-                    <h1><a href="http://demo.whatacart.com/site/default/index">Tehno Restart</a></h1>                </div>
+                    <h1><a href="#">Tehno Restart</a></h1>                </div>
             </div>
             <div class="col-sm-5">
-                <form id="navbarsearchformview" class="navbar-search" action="http://demo.whatacart.com/site/default/search" method="get">
+                <form id="navbarsearchformview" class="navbar-search" action="#" method="get">
                     <div id="search" class="input-group">
                         <input type="text" id="navbarsearchform-keyword" class="form-control input-lg" name="keyword" placeholder="Search">
                         <span class="input-group-btn">
@@ -119,9 +119,10 @@ $this->title = 'TR MDL';
             <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav"><li><a href="http://demo.whatacart.com/catalog/productCategories/site/view?id=3">Camera</a></li>
-                <li><a href="http://demo.whatacart.com/catalog/productCategories/site/view?id=2">Laptops &amp; Notebooks</a></li>
-                <li><a href="http://demo.whatacart.com/catalog/productCategories/site/view?id=1">Desktops</a></li></ul>    </div>
+            <ul class="nav navbar-nav"><li><a href="#">Home</a></li>
+                <li><a href="#">Smartphones</a></li>
+                <li><a href="#">Laptops</a></li></ul>    
+	</div>
     </nav>
 </div><div class="container">
     <div class="row">
@@ -140,17 +141,17 @@ $this->title = 'TR MDL';
 
                     <div class="item"><img src="./images/slide4-1140x380.png" alt=""></div>
                 </div>
-                <a class="left carousel-control" data-slide="prev" href="http://demo.whatacart.com/site/default/index#carousel-captions"><span class="icon-prev"></span> </a>
-                <a class="right carousel-control" data-slide="next" href="http://demo.whatacart.com/site/default/index#carousel-captions"> <span class="icon-next"></span> </a>
+                <a class="left carousel-control" data-slide="prev" href="#"><span class="icon-prev"></span> </a>
+                <a class="right carousel-control" data-slide="next" href="#"> <span class="icon-next"></span> </a>
             </div><h3>Latest Products</h3><div class="row"><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=55">
+                            <a href="#">
                                 <img class="img-responsive" src="./images/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=55">
+                                <a href="#">
                                     Sony Vaio 30"                </a>
                             </h4>
                             <p>
@@ -176,12 +177,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=54">
+                            <a href="#">
                                 <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-eb-2011q1-black-hero-lg.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=54">
+                                <a href="#">
                                     Sony Vaio 29"                </a>
                             </h4>
                             <p>
@@ -207,12 +208,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=53">
+                            <a href="#">
                                 <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-laptop-s13126-black-with-laptop-bag.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=53">
+                                <a href="#">
                                     Sony Vaio 28"                </a>
                             </h4>
                             <p>
@@ -238,12 +239,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=52">
+                            <a href="#">
                                 <img src="./images/150_150_img_not_available.png" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=52">
+                                <a href="#">
                                     Sony Vaio 27"                </a>
                             </h4>
                             <p>
@@ -269,12 +270,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=51">
+                            <a href="#">
                                 <img class="img-responsive" src="./images/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=51">
+                                <a href="#">
                                     Sony Vaio 26"                </a>
                             </h4>
                             <p>
@@ -300,12 +301,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=50">
+                            <a href="#">
                                 <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-eb-2011q1-black-hero-lg.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=50">
+                                <a href="#">
                                     Sony Vaio 25"                </a>
                             </h4>
                             <p>
@@ -331,12 +332,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=49">
+                            <a href="#">
                                 <img class="img-responsive" src="./images/150_150_ZDY5NmEyMmsony-vaio-laptop-s13126-black-with-laptop-bag.jpg" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=49">
+                                <a href="#">
                                     Sony Vaio 24"                </a>
                             </h4>
                             <p>
@@ -362,12 +363,12 @@ $this->title = 'TR MDL';
                 </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
-                            <a href="http://demo.whatacart.com/catalog/products/site/detail?id=48">
+                            <a href="#">
                                 <img src="./images/150_150_img_not_available.png" width="150" height="150" alt="">            </a>
                         </div>
                         <div class="caption">
                             <h4>
-                                <a href="http://demo.whatacart.com/catalog/products/site/detail?id=48">
+                                <a href="#">
                                     Sony Vaio 23"                </a>
                             </h4>
                             <p>
