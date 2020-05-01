@@ -2,12 +2,13 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'TR MDL';
+$this->title = 'Tehno Restart';
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0044)http://demo.whatacart.com/site/default/index -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="language" content="en-US">
     <link rel="icon" type="image/ico" href="http://demo.whatacart.com/themes/classic/assets/images/favicon.ico">
@@ -20,8 +21,8 @@ $this->title = 'TR MDL';
     <link href="./images/font-awesome.min.css" rel="stylesheet">
     <link href="./images/stylesheet.css" rel="stylesheet">
     <link href="./images/bootstrap-theme.css" rel="stylesheet">
-    <link href="./images/css" rel="stylesheet">    </head>-->
-
+    <link href="./images/css" rel="stylesheet">-->
+</head>
 <body>
 <!--<nav id="top">
     <div class="container">
@@ -85,18 +86,18 @@ $this->title = 'TR MDL';
         <div class="row">
             <div class="col-sm-4">
                 <div id="logo">
-                    <h1><a href="#">Tehno Restart</a></h1>                </div>
+                    <h1><a href="#">Tehno Restart</a></h1>
+                </div>
             </div>
             <div class="col-sm-5">
                 <form id="navbarsearchformview" class="navbar-search" action="#" method="get">
                     <div id="search" class="input-group">
                         <input type="text" id="navbarsearchform-keyword" class="form-control input-lg" name="keyword" placeholder="Search">
                         <span class="input-group-btn">
-            <button type="submit" class="btn btn-default btn-lg" name="navsearch"><i class="fa fa-search"></i></button>
-        </span>
+                            <button type="submit" class="btn btn-default btn-lg" name="navsearch"><i class="fa fa-search"></i></button>
+                        </span>
                     </div>
                 </form>
-
             </div>
             <div class="col-sm-3"><div id="cart" class="btn-group btn-block">
                     <div class="dropdown pull-right">
@@ -106,25 +107,29 @@ $this->title = 'TR MDL';
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu pull-right">
-                            <li>
-                                <p class="text-center">Your shopping cart is empty!</p>
-                            </li>
+                            <li><p class="text-center">Your shopping cart is empty!</p></li>
                         </ul>
-                    </div></div></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</header><div class="container">
+</header>
+<div class="container">
     <nav id="menu" class="navbar">
         <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
             <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav"><li><a href="#">Home</a></li>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Smartphones</a></li>
-                <li><a href="#">Laptops</a></li></ul>    
-	</div>
+                <li><a href="#">Laptops</a></li>
+            </ul>
+        </div>
     </nav>
-</div><div class="container">
+</div>
+<div class="container">
     <div class="row">
         <div id="content" class="col-sm-12">
             <div class="carousel slide hidden-xs" data-ride="carousel" id="carousel-captions">
@@ -143,7 +148,10 @@ $this->title = 'TR MDL';
                 </div>
                 <a class="left carousel-control" data-slide="prev" href="#"><span class="icon-prev"></span> </a>
                 <a class="right carousel-control" data-slide="next" href="#"> <span class="icon-next"></span> </a>
-            </div><h3>Latest Products</h3><div class="row"><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            </div>
+            <h3>Latest Products</h3>
+            <div class="row">
+                <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="#">
@@ -174,7 +182,8 @@ $this->title = 'TR MDL';
                             </button>
                         </div>
                     </div>
-                </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                </div>
+                <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="#">
@@ -205,7 +214,8 @@ $this->title = 'TR MDL';
                             </button>
                         </div>
                     </div>
-                </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                </div>
+                <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="#">
@@ -236,7 +246,8 @@ $this->title = 'TR MDL';
                             </button>
                         </div>
                     </div>
-                </div><div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                </div>
+                <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
                         <div class="image">
                             <a href="#">
@@ -391,7 +402,9 @@ $this->title = 'TR MDL';
                             </button>
                         </div>
                     </div>
-                </div></div>        </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="modal fade in" id="sendNewsletterModal" tabindex="-1" role="dialog" aria-labelledby="screenOptionsLabel" aria-hidden="true">
@@ -428,11 +441,11 @@ $this->title = 'TR MDL';
 <script src="./images/yii.validation.js.descărcare"></script>
 <script src="./images/yii.activeForm.js.descărcare"></script>
 -->
-<script type="text/javascript">
+    <script type="text/javascript">
     $('.topnavbar ul > li:has(ul) > a').addClass('dropdown-toggle');
     $('.topnavbar ul > li:has(ul) > a').attr('data-toggle', 'dropdown');
 </script>
-<script type="text/javascript">jQuery(document).ready(function () {
+    <script type="text/javascript">jQuery(document).ready(function () {
 
         var dataString = '';
         $('body').on('click', '.add-cart', function(){
@@ -634,4 +647,5 @@ $this->title = 'TR MDL';
         jQuery('#sendnewsletterview').yiiActiveForm([{"id":"newslettercustomers-email","name":"email","container":".field-newslettercustomers-email","input":"#newslettercustomers-email","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Email cannot be blank."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Email is not a valid email address.","enableIDN":false,"skipOnEmpty":1});}}], {"errorSummary":".error-summary.hide"});
     });</script>
 
-</body></html>
+</body>
+</html>
