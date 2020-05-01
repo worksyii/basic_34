@@ -15,7 +15,7 @@ $this->title = 'TR MDL';
     <meta name="csrf-param" content="_frontendCSRF">
     <meta name="csrf-token" content="ckNmYnFHYmo1FVRXBQFbLx1xXzsECRc/KC0NBxYVIFwDDC1bPwshHA==">
     <meta name="description" content="Demo site Description">
-    <meta name="keywords" content="Demo site Keywords">
+    <meta name="keywords" content="Demo site Keyword">
 <!--    <link href="./images/bootstrap.min.css" rel="stylesheet">
     <link href="./images/font-awesome.min.css" rel="stylesheet">
     <link href="./images/stylesheet.css" rel="stylesheet">
