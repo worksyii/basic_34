@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-use Yii;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "contracts".
@@ -20,7 +20,7 @@ use Yii;
  * @property int|null $discount
  * @property float|null $amount
  */
-class Contracts extends \yii\db\ActiveRecord
+class Contracts extends ActiveRecord
 {
     /**
      * {@inheritdoc}

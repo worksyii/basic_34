@@ -5,13 +5,12 @@
 $this->title = 'Tehno Restart';
 ?>
 <!DOCTYPE html>
-<!-- saved from url=(0044)http://demo.whatacart.com/site/default/index -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="language" content="en-US">
-    <link rel="icon" type="image/ico" href="http://demo.whatacart.com/themes/classic/assets/images/favicon.ico">
+    <link rel="icon" type="image/ico" href="#/themes/classic/assets/images/favicon.ico">
     <title>Home</title>
     <meta name="csrf-param" content="_frontendCSRF">
     <meta name="csrf-token" content="ckNmYnFHYmo1FVRXBQFbLx1xXzsECRc/KC0NBxYVIFwDDC1bPwshHA==">
