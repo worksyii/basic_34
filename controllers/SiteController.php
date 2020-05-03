@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Products;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -62,7 +63,8 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $products = Products::find()->where{['status'=>0]}->all();
+        return $this->render('index',['product'=>$products]);
     }
 
     /**

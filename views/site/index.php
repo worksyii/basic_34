@@ -73,6 +73,44 @@ $this->title = 'Tehno Restart';
             <h3>Latest Products</h3>
             <div class="row">
 
+                <?php foreach($products as $product) ?>
+
+                <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="product-thumb transition">
+                        <div class="image">
+                            <a href="#">
+                                <img class="img-responsive" src="./images/150_150_MGNjNmZlNDsony-vaio-laptop-shop-in-jaipur.jpg" width="150" height="150" alt="">            </a>
+                        </div>
+                        <div class="caption">
+                            <h4>
+                                <a href="#">
+                                    <?=$product->model_name?>
+                                </a>
+                            </h4>
+                            <p>
+                                This is description for product Sony Vaio 30"            </p>
+                            <p class="price"><span class="price-new">$115.50</span></p>
+                        </div>
+                        <div class="button-group">
+
+                            <input type="hidden" name="quantity" value="1">
+                            <button type="button" data-toggle="tooltip" title="" class="add-cart" data-productid="55" data-original-title="Add to Cart">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span>
+                            </button>
+                            <button type="button" data-toggle="tooltip" title="" class="product-wishlist" data-productid="55" name="Add to Wish List" data-original-title="Add to Wish List">
+                                <i class="fa fa-heart" id="add-to-wish-list-55"></i>
+                            </button>
+
+                            <button type="button" data-toggle="tooltip" title="" class="add-product-compare" data-productid="55" id="Add to Compare-55" data-original-title="Add to Compare">
+                                <i class="fa fa-exchange"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <?php } ?>
+
             </div>
         </div>
     </div>
