@@ -63,8 +63,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $products = Products::find()->where{['status'=>0]}->all();
-        return $this->render('index',['product'=>$products]);
+        return $this->render('index');
     }
 
     /**
