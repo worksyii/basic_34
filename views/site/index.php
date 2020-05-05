@@ -73,7 +73,6 @@ $this->title = 'Tehno Restart';
             <h3>Latest Products</h3>
             <div class="row">
 
-                <?php foreach($products as $product) ?>
 
                 <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="product-thumb transition">
@@ -84,7 +83,8 @@ $this->title = 'Tehno Restart';
                         <div class="caption">
                             <h4>
                                 <a href="#">
-                                    <?=$product->model_name?>
+
+
                                 </a>
                             </h4>
                             <p>
@@ -109,7 +109,6 @@ $this->title = 'Tehno Restart';
                     </div>
                 </div>
 
-                <?php } ?>
 
             </div>
         </div>
