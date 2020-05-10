@@ -40,10 +40,7 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/admin/default/index']],
             ['label' => 'Users', 'url' => ['/rbac/default/index']],
-            ['label' => 'Products', 'url' => ['/admin/products/index']],
-            ['label' => 'Categories', 'url' => ['/admin/categories/index']],
-            ['label' => 'Partners', 'url' => ['/admin/partners/index']],
-            ['label' => 'Contracts', 'url' => ['/admin/contracts/index']],
+            ['label' => 'Posts', 'url' => ['/admin/post/index']],
             Yii::$app->user->isGuest ? (
             ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -73,6 +70,8 @@ AppAsset::register($this);
 <footer class="footer">
     <div class="container">
         <p class="pull-left">&copy; Tehno Restart <?= date('Y') ?></p>
+
+        <!-- <p class="pull-right"><?= Yii::powered() ?></p> -->
     </div>
 </footer>
 

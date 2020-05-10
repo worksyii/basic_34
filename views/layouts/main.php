@@ -27,7 +27,6 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
-
     <?php
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
@@ -39,9 +38,10 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => Yii::$app->homeUrl],
+            ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
-	        ['label' => 'Register', 'url' => ['/site/signup']],
+            ['label' => 'Posts', 'url' => ['/post/index']],
+	    ['label' => 'Signup', 'url' => ['/site/signup']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
@@ -58,6 +58,7 @@ AppAsset::register($this);
     ]);
     NavBar::end();
     ?>
+
     <div class="container">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
@@ -66,37 +67,15 @@ AppAsset::register($this);
         <?= $content ?>
     </div>
 </div>
-<footer class"footer">
+
+<footer class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h5>Information</h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5> Customer Service </h5>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5> My Account </h5>
-                <ul class="list-unstyled">
-                    <li> <a href="#">My Account</a> </li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5> Social </h5>
-            </div>
-        </div>
+        <p class="pull-left">&copy; Tehno Restart <?= date('Y') ?></p>
+
+       <!-- <p class="pull-right"><?= Yii::powered() ?></p> -->
     </div>
 </footer>
+
 <?php $this->endBody() ?>
 </body>
 </html>
